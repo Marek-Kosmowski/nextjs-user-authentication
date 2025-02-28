@@ -34,7 +34,7 @@ export default function AuthForm() {
       </p>
       <p>
         <button
-          className='w-full cursor-pointer pt-2 pb-2 pr-6 pl-6  bg-white text-black font-bold py-3 px-3 rounded-sm text-lg border-2 border-transparent'
+          className='w-full cursor-pointer pt-2 pb-2 pr-6 pl-6  bg-white text-black font-bold py-3 px-3 rounded-sm text-lg border-2 border-transparent duration-200 hover:bg-[rgba(255,255,255,0.15)] hover:text-white hover:border-white'
           type='submit'
         >
           Create
