@@ -11,8 +11,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body>
-        <PageBackground />
         {children}
+        <PageBackground />
       </body>
     </html>
   );
