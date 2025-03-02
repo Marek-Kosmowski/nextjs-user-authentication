@@ -3,7 +3,6 @@ import Image from 'next/image';
 export default function AuthForm() {
   return (
     <form className='py-12 px-16 w-5/6 max-w-2xl rounded-md  fixed z-1 top-1/3 left-1/3 backdrop-blur-sm border-2 border-[rgba(255,255,255,0.1)]'>
-      <div>{/* <Image /> */}</div>
       <p>
         <label
           className='block mb-1 font-bold text-white
