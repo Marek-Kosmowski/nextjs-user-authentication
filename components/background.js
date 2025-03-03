@@ -2,14 +2,7 @@ import Particles from '@/lib/particles';
 
 export function PageBackground() {
   return (
-    <div
-      style={{
-        width: '100%',
-        height: '100%',
-        position: 'absolute',
-        zIndex: '-1',
-      }}
-    >
+    <div className='w-full h-screen absolute -z-10'>
       <Particles
         particleColors={['#FF204E', '#A0153E']}
         particleCount={300}
