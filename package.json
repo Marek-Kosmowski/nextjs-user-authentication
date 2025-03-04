@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "better-sqlite3": "^11.8.1",
     "next": "15.2.0",
     "ogl": "^1.0.11",
